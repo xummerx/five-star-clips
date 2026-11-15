@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Five Star Clips Uploader</title>
+<meta name="description" content="A personal tool that uploads short gaming clips to the Five Star Clips YouTube channel.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body><main>
+<header><div class="mark" aria-hidden="true">5</div><h1>Five Star Clips Uploader</h1></header>
+<p>A small personal tool that uploads short gaming clips to the
+<a href="https://www.youtube.com/@fivestarclips2026">Five Star Clips</a> YouTube channel.
+It runs only on the channel owner's own computer and is not offered to anyone else.</p>
+<section>
+<h2>What it does</h2>
+<ul>
+<li>Uploads clips that passed its quality checks to the owner's own channel, using the YouTube Data API.</li>
+<li>Reads the channel's own uploads back to confirm each video is processed and public.</li>
+</ul>
+<h2>Google permissions it asks for</h2>
+<ul>
+<li><code>youtube.upload</code>: upload videos to the owner's channel.</li>
+<li><code>youtube.readonly</code>: see which channel is signed in and the status of its videos.</li>
+</ul>
+<p class="muted">It cannot edit or delete videos, and it does not read anything outside the owner's own channel.</p>
+</section>
+<nav><a href="privacy.html">Privacy policy</a><a href="terms.html">Terms of service</a></nav>
+</main></body>
+</html>
